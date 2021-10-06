@@ -1,0 +1,156 @@
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;  
+    padding: 30px 200px 100px 120px;
+    flex-wrap: nowrap;
+}
+
+.header,
+.subheader {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 230px;
+    gap: 20px;
+    background-color: #bd7d62;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.link-one{
+    margin-left: auto;
+}
+
+.subheader {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9FAF8;
+}
+
+.awesome {
+    font-size: 36px;
+    font-weight: 950;
+}
+
+p {
+    font-weight: bold;
+}
+
+.sign-up {
+    width: 400px;
+}
+
+.placeholder {
+    background-color: 	#d8b186;
+    padding: 100px 220px;
+    margin-left: auto;
+    margin-right: 200px;
+    color:rgb(126, 80, 37);
+}
+
+button {
+    background-color: #f7ebdb;
+    border-radius: 10px;
+    color: rgb(126, 80, 37);
+    box-shadow: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    color: rgb(54, 46, 40);
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: 	#ebac8d;
+    margin-bottom: 5px;
+}
+
+.boxset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    background-color:	#f4d6b4;
+}
+
+.god {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.reminder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+    margin: 100px;
+    background-color: rgb(248, 175, 147);
+    border-radius: 10px;
+}
+
+.reminder-text {
+    font-size: 20px;
+}   
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #bd7d62;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9FAF8;
+}
