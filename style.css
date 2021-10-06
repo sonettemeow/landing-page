@@ -50,7 +50,7 @@ a {
     color: #F9FAF8;
 }
 
-.awesome {
+.subheader-header {
     font-size: 36px;
     font-weight: 950;
 }
@@ -59,7 +59,7 @@ p {
     font-weight: bold;
 }
 
-.sign-up {
+.subheader-container {
     width: 400px;
 }
 
